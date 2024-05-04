@@ -1,8 +1,3 @@
-## Hyprland on Arch dotfiles + an install script
+# My Dotfiles 
 
-## How to install? 
-
-- Run `install.sh`
-- Put your sudo password in required fields
-- Make sure to reboot after install.sh is done
-- (OPTIONAL) Rub ohmyzsh.sh if you want themed zsh
+## Diffrent brnaches have diffrent themes / Desktop Environments
