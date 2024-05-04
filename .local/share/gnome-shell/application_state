@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="code-url-handler.desktop" score="20" last-seen="1714148003"/>
+    <application id="github-desktop.desktop" score="2" last-seen="1714151863"/>
+    <application id="gearlever_thoriumbrowser_31172f.desktop" score="0" last-seen="0"/>
+    <application id="Alacritty.desktop" score="427" last-seen="1714151832"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="88" last-seen="1714150846"/>
+    <application id="org.gnome.tweaks.desktop" score="7" last-seen="1714149038"/>
+    <application id="kvantummanager.desktop" score="6" last-seen="1714142164"/>
+    <application id="qt5ct.desktop" score="6" last-seen="1714142919"/>
+    <application id="code.desktop" score="103" last-seen="1714149662"/>
+    <application id="org.gnome.Software.desktop" score="67" last-seen="1714150932"/>
+    <application id="legion_gui.desktop" score="15" last-seen="1714146395"/>
+    <application id="org.gnome.font-viewer.desktop" score="5" last-seen="1714140928"/>
+    <application id="com.discordapp.Discord.desktop" score="60" last-seen="1714150275"/>
+    <application id="org.gnome.Settings.desktop" score="17" last-seen="1714150963"/>
+    <application id="nvidia-settings.desktop" score="3" last-seen="1714151433"/>
+    <application id="io.github.congard.qnvsm.desktop" score="12" last-seen="1714151648"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="61" last-seen="1714150793"/>
+    <application id="org.freedesktop.GnomeAbrt.desktop" score="0" last-seen="1714143983"/>
+    <application id="org.qbittorrent.qBittorrent.desktop" score="5" last-seen="1714150980"/>
+    <application id="qt6ct.desktop" score="4" last-seen="1714143199"/>
+    <application id="it.mijorus.gearlever.desktop" score="4" last-seen="1714138824"/>
+    <application id="org.gnome.Nautilus.desktop" score="65" last-seen="1714152106"/>
+    <application id="org.gnome.clocks.desktop" score="0" last-seen="1714150873"/>
+  </context>
+</application-state>
