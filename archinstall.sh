@@ -50,7 +50,8 @@ sudo pacman -S --noconfirm \
 yay -S --noconfirm \
     xfce-polkit \
     rofi-greenclip \
-    waypaper-git
+    waypaper-git \
+    pywal-16-colors
 
 # Install packages with yay
 for pkg in "${yay_packages[@]}"; do
