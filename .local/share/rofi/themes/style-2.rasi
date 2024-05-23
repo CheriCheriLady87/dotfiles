@@ -1,13 +1,6 @@
-* {
-    bg-col:  #24273a;
-    bg-col-light: #24273a;
-    border-col: #24273a;
-    selected-col: #24273a;
-    blue: #8aadf4;
-    fg-col: #cad3f5;
-    fg-col2: #ed8796;
-    grey: #6e738d;
+@import "~/.cache/wal/colors-rofi-dark.rasi"
 
+* {
     width: 600;
     font: "JetBrainsMono Nerd Font 14";
 }
@@ -17,7 +10,7 @@
  *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- * 
+ *
  * Rofi Theme File
  * Rofi Version: 1.7.3
  **/
@@ -48,7 +41,7 @@ window {
     padding:                     0px;
     border:                      2px solid;
     border-radius:               20px;
-    border-color:                @fg-col;
+    border-color:                @normal-foreground;
     background-color:            transparent;
     cursor:                      "default";
 }
@@ -75,8 +68,8 @@ inputbar {
     border:                      0px solid;
     border-radius:               20px;
     border-color:                @selected;
-    background-color:            @fg-col;
-    text-color:                  @foreground;
+    background-color:            @normal-foreground;
+    text-color:                  @normal-background;
     children:                    [ "prompt", "entry" ];
 }
 
@@ -113,7 +106,7 @@ listview {
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;
-    
+
     spacing:                     5px;
     margin:                      0px;
     padding:                     0px;
@@ -149,8 +142,8 @@ element normal.normal {
     text-color:                  @foreground;
 }
 element selected.normal {
-    background-color:            @fg-col;
-    text-color:                  black;
+    background-color:            @selected-active-background;
+    text-color:                  @selected-normal-foreground;
 }
 element-icon {
     background-color:            transparent;
