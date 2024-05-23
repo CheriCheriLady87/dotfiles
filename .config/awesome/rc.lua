@@ -84,7 +84,7 @@ awful.layout.layouts = {
 -- }}}
 
 -- Set border width and color
-beautiful.border_width = 3
+beautiful.border_width = 0
 beautiful.border_normal =  "#24273a"
 beautiful.border_focus = "#cad3f5"
 beautiful.useless_gap = 5
@@ -648,7 +648,7 @@ awful.rules.rules = {
 
     { rule = { name = "All Files" },
       properties = { screen = 1, tag = "nil" } },
-      
+
     { rule = { class = "PeaZip" },
       properties = { floating = true, tag = "nil" } },
 
