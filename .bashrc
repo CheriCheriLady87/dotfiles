@@ -8,4 +8,4 @@ export PATH="$PATH:/home/kleidis/.local/bin"
 eval "$(zoxide init bash)"
 eval "$(starship init bash)"
 pfetch
-isource ~/.local/share/blesh/ble.sh
+source  ~/.local/share/blesh/ble.sh
