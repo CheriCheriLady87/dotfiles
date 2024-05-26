@@ -10,7 +10,7 @@ family= "DroidSansM Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.7
+opacity = 1.0
 padding = { x = 15, y = 15}
 
 
