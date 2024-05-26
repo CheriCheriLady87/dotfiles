@@ -101,7 +101,7 @@ ln -s  ~/.local/share/themes/catppuccin-mocha-blue-standard+default/gtk-4.0/asse
 ln -s ~/.local/share/themes/catppuccin-mocha-blue-standard+default/gtk-4.0/gtk.css ~/.config/gtk-4.0/gtk.css
 ln -s ~/.local/share/themes/catppuccin-mocha-blue-standard+default/gtk-4.0/gtk-dark.css ~/.config/gtk-4.0/gtk-dark.css
 
-sudo flatpak override --filesystem=$HOME/.local/share/themes
+sudo flatpak override --filesystem=~/.themes
 sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=xdg-config/gtk-3.0
 sudo flatpak override --filesystem=xdg-config/Kvantum:ro
