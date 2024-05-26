@@ -1,4 +1,4 @@
-@import "macchiato.css";
+@import "mocha.css";
 
 * { min-height: 15px; } 
 
@@ -84,9 +84,9 @@ window#waybar.chromium {
 #mpd {
     background-color: @base;
     color: @text;
-    border: 1px solid alpha(@crust, 0.3);
+    border: 2px solid alpha(@subtext2, 0.3);
     margin: 0px 5px;
-    border-radius: 9px;
+    border-radius: 13px;
 }
 
 #clock {
