@@ -121,7 +121,7 @@ sudo cp /etc/sddm.conf /etc/sddm.conf.bak
 
 # Set up SDDM theme
 echo "Setting up sddm theme..."
-sudo cp -r  ~/dotfiles/sddm/catppuccin-macchiato/ /usr/share/sddm/themes/
+sudo cp -r  ~/dotfiles/sddm/catppuccin-mocha/ /usr/share/sddm/themes/
 sudo sed -i.bak '/\[Theme\]/,/^\[/s/.*//g' /etc/sddm.conf && echo -e "[Theme]\nCurrent=catppuccin-macchiato" | sudo tee -a /etc/sddm.conf
 
 # Ask the user if they would like to reboot
