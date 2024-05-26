@@ -40,7 +40,7 @@ pacman_packages=(
     swaync
     rofi-wayland
     fastfetch
-    gnome-software
+    starship
 )
 
 # Define packages to be installed with yay
@@ -89,10 +89,6 @@ sudo systemctl start bluetooth
 sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 
-# Set default terminal as Alacritty
-echo "Default terminal as Alacritty..."
-gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
-
 # Uninstall useless packages
 sudo pacman -Rsn kitty dunst dolphin vim wofi
 
@@ -100,8 +96,12 @@ sudo pacman -Rsn kitty dunst dolphin vim wofi
 echo "Updating user directories..."
 xdg-user-dirs-update
 
-# Use the Catppucin theme for flatpak
-echo "Configuring flatpak to use the pywal GTK theme..."
+mkdir -p ~/.config/gtk-4.0
+ln -s  ~/.local/share/themes/catppuccin-mocha-blue-standard+default/gtk-4.0/assets ~/.config/gtk-4.0
+ln -s ~/.local/share/themes/catppuccin-mocha-blue-standard+default/gtk-4.0/gtk.css ~/.config/gtk-4.0/gtk.css
+ln -s ~/.local/share/themes/catppuccin-mocha-blue-standard+default/gtk-4.0/gtk-dark.css ~/.config/gtk-4.0/gtk-dark.css
+
+sudo flatpak override --filesystem=$HOME/.local/share/themes
 sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=xdg-config/gtk-3.0
 sudo flatpak override --filesystem=xdg-config/Kvantum:ro
