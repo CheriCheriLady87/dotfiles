@@ -4,7 +4,7 @@
 pacman_packages=(
     stow
     xdg-desktop-portal-gtk
-    nemo
+    thunar
     alacritty
     zsh
     power-profiles-daemon
