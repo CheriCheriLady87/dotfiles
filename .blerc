@@ -1,0 +1,2 @@
+# Set autocomplete text to a darker color
+ble-face auto_complete='fg=238'
